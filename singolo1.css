@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+*,
+*:before,
+*:after {
+    box-sizing:border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    padding-top: 0px;
+    max-width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.container {
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    height: 89px;
+
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+/*   логотип   */
+.header__logo {
+position: absolute;
+left: 40px;
+top: -16px;
+font-size: 25px;
+color: #ffffff;
+font-weight: 700;
+text-align: left;
+margin: 0;
+letter-spacing: -0.02em;
+}
+
+/*  навигация  */
+.nav {
+    position: absolute;
+    right: 34px;
+    top: -3px;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5.7px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    letter-spacing: -0.02em;
+}
+.nav__link:hover {
+    color: #f06c64;
+}
+
+
+
+.header__logo__color {
+    color: #f06c64;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 147px;
+    top: -16px;
+    
+}
+
+/*   линия между 1 и 2 блоком   */
+.line {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: 6px;
+    top: 44px;
+    background-color: #323746;
+    z-index: 1000;
+}
+/*    Блок Slider   */
+.slaider {
+    width: 100%;
+    top: 6px;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 594px;
+    position: relative;
+    background-color: #f06c64;
+    z-index: 1000;
+    
+}
+
+.container1 {
+    padding-top: 281px;
+    margin-left: 42px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* параметры отображения телефона1*/
+.iphone1 {
+    position: absolute;
+    top: 53px;
+    left: 112px;
+}
+
+/*.iphone {
+    position: absolute;  
+}*/
+.iphone {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+}
+
+.screen {
+    position: absolute;
+    top: 62px;
+    left: 11px;
+    z-index: 1000;
+}
+
+.shadow {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+/* параметры отображения телефона2*/
+.iphonetwo {
+    position: absolute;
+    top: 174px;
+    left: 425px;
+}
+
+/*.iphone {
+    position: absolute;  
+}*/
+.iphone2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+}
+
+.screen2 {
+    position: absolute;
+    top: 11px;
+    left: 57px;
+    z-index: 1000;
+}
+
+.shadow2 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    z-index: 0;
+}
+/*       линия между 2 и 3 блоком   */
+.line2 {
+    position: relative;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 15px;
+    top: -3px;
+    background-color:#ea676b;;
+    z-index: 10;
+}
+
+
+/*    Блок Our Services   */
+.Our_Services {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 494px;
+    position: relative;
+    top: -4px;
+    background-color: #f2f2f2;
+}
+
+.our {
+    position: absolute;
+    left: 40px;
+    top: 69px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.004em;
+}
+
+.des {
+    position: absolute;
+    max-width: 940px;
+    margin: 0;
+    left: 40px;
+    top: 114px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: -0.004em;
+}
+
+/*   нижняя часть колонки   */
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 319.5px);
+    grid-template-rows: repeat(2, 123px);
+    
+  
+}
+/*.design {
+    position: absolute;
+
+    
+}*/
+.custom {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    top: 219px;
+    left: 120px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.about {
+    position: relative;
+    top: 217px;
+    left: 121px;
+    max-width: 220px;
+    max-height: 84px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+}
+
+.circle {
+    position: relative;
+    top: 113px;
+    left: 41px;
+}
+.pen {
+    position: relative;
+    top: 113px;
+    left: -20px;
+}
+.bulb {
+    position: relative;
+    top: 99px;
+    left: -1.5px;
+}
+.heart {
+    position: relative;
+    top: 98px;
+    left: -6px;
+}
+.phone {
+    position: relative;
+    top: 100px;
+    left: -1px;
+}
+.bubble {
+    position: relative;
+    top: 98px;
+    left: -6px;
+}
+.star {
+    position: relative;
+    top: 99px;
+    left: -6px;
+}
+/*       линия после 3 блока   */
+.line3 {
+    position: absolute;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 6px;
+    top: 495px;
+    background-color:#ffffff;;
+    z-index: 10;
+}
