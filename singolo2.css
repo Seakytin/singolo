@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+*,
+*:before,
+*:after {
+    box-sizing:border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    max-width: 1020px;
+    height: 870px;
+    background-color: #2d303a;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+}
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+
+}
+.header__inner {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+/*   логотип   */
+.header__logo {
+position: absolute;
+left: 40.5px;
+top: 60px;
+font-size: 30px;
+color: #666d89;
+font-weight: 900;
+text-align: left;
+margin: 0;
+letter-spacing: -0.006em;
+}
+
+/*  навигация  */
+.nav {
+    position: absolute;
+    left: 38.2px;
+    top: 154.5px;
+}
+
+.nav__link {
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline-block;
+    text-align: left;
+    margin: 0 3.3px;
+    color: #767e9e;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.008em;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+}
+
+.nav__link:hover {
+    color: #dedede;
+    border-color: #dedede;
+}
+
+
+
+.header__logo__color {
+    margin: 0px;
+    position: absolute;
+    left: 40.5px;
+    top: 114px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;   
+}
+
+/*   линия между 1 и 2 блоком   */
+.line {
+    position: absolute;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0;
+    height: 6px;
+    top: 864px;
+    background-color: #323746;
+    z-index: 1000;
+}
+/*    Блок Slider   */
+.slaider {
+   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1020px;
+    height: 870px;
+    display: grid;
+    /*grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(3, 10px);
+    grid-column-gap: 20px;*/
+    
+    grid-template-rows: 187px 187px 187px;
+    grid-template-columns: 221px 220px 220px 220px;
+    justify-items: left;
+    justify-content: start;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    overflow: hidden;
+
+      
+}
+.imag {
+    position: relative;
+    top: 196px;
+    left: 40px;
+
+}
+.top {
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    z-index: 2;
+}
+.top1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.backgr {
+    position: absolute;
+    z-index: 1;
+}
+/*.container1 {
+    padding-top: 281px;
+    margin-left: 42px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* параметры отображения телефона1*/
+/*.iphone1 {
+    position: absolute;
+    display: inline-block;
+}
+
+
+.iphone {
+    position: absolute;  
+}
+.iphone {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+}
+
+.screen {
+    position: absolute;
+    top: 62px;
+    left: 11px;
+    z-index: 1000;
+}
+
+.shadow {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}*/
+/* параметры отображения телефона2*/
+/*.iphonetwo {
+    position: absolute;
+    top: 174px;
+    left: 425px;
+}*/
+
+/*.iphone {
+    position: absolute;  
+}*/
+/*/.iphone2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+}
+
+.screen2 {
+    position: absolute;
+    top: 11px;
+    left: 57px;
+    z-index: 1000;
+}
+
+.shadow2 {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    z-index: 0;
+}*/
+/*       линия между 2 и 3 блоком   */
+.line2 {
+    position: absolute;
+    width: 100%;
+    max-width: 1020px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    top: 1601px;
+    background-color:#ffffff;;
+    z-index: 10000;
+}
+
+
+/*    Блок Our Services   */
+.About_Us {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 728px;
+    position: relative;
+    top: 0px;
+    background-color:#f2f2f2;
+}
+
+.our {
+    position: absolute;
+    left: 40.5px;
+    top: 68px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.007em;
+}
+
+.des {
+    position: absolute;
+    max-width: 940px;
+    height: 57px;
+    margin: 0;
+    left: 40px;
+    top: 113px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.0081em;
+}
+
+/*   нижняя часть колонки   */
+main {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 20px;
+    
+  
+}
+.Photo_Whis_background {
+    position: relative;
+    top: 218px;
+    left: 40px;
+}
+
+.backgr_photo {
+    position: absolute;
+    z-index: 1;
+}
+.photo {
+    position: absolute;
+    z-index: 2;
+}
+.photo_b {
+    position: absolute;
+    left: -1px;
+    z-index: 2;
+}
+.backgr_photo_b {
+    position: absolute;
+    left: -1px;
+    z-index: 1;
+}
+.name {
+    position: absolute;
+    top: 317px;
+    left: -0.5px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.007em;
+    overflow: hidden;
+}
+.about_person {
+    position: absolute;
+    top: 333px;
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: auto;
+    letter-spacing: -0.005em;
+    overflow: hidden;
+}
+.social_networks {
+    position: absolute;
+    top: 411px;
+    left: -2px;
+
+}
+.social_networks_b {
+    position: absolute;
+    top: 411px;
+    left: -3px;
+}
+.logo {
+    margin: 0 3px;
+}
+.about_person_b {
+    position: absolute;
+    top: 333px;
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: auto;
+    letter-spacing: 0.009em;
+    overflow: hidden;
+}
+.about_person_c {
+    position: absolute;
+    top: 333px;
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: auto;
+    letter-spacing: 0.009em;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.design {
+    position: absolute;
+
+    
+}*/
+.custom {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    top: 219px;
+    left: 120px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.about {
+    position: relative;
+    top: 217px;
+    left: 121px;
+    max-width: 220px;
+    max-height: 84px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+}
+
+.circle {
+    position: relative;
+    top: 113px;
+    left: 41px;
+}
+.pen {
+    position: relative;
+    top: 113px;
+    left: -20px;
+}
+.bulb {
+    position: relative;
+    top: 99px;
+    left: -1.5px;
+}
+.heart {
+    position: relative;
+    top: 98px;
+    left: -6px;
+}
+.phone {
+    position: relative;
+    top: 100px;
+    left: -1px;
+}
+.bubble {
+    position: relative;
+    top: 98px;
+    left: -6px;
+}
+.star {
+    position: relative;
+    top: 99px;
+    left: -6px;
+}
+/*       линия после 3 блока   */
+/*.line3 {
+    position: absolute;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 6px;
+    top: 495px;
+    background-color:#ffffff;;
+    z-index: 10;
+}*/
